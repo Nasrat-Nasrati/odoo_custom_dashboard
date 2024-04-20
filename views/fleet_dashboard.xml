@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_owl_sales_dashboard" model="ir.actions.client">
+            <field name="name">Fleet Dashboard</field>
+            <field name="tag">owl.sales_dashboard</field>
+        </record>
+
+        <!--My Dashboard Menu-->
+        <menuitem
+            id="menu_board_my_dash"
+            name=" Dashboard"
+            parent="fleet.menu_root"
+            action="action_owl_sales_dashboard"
+            />
+    </data>
+</odoo>

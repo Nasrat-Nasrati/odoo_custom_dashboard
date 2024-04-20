@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name' : 'Owl Tutorial',
-    'version' : '1.0',
-    'summary': 'OWL Tutorial',
+    'name' : 'Fleet Custom Dashboard',
+    'version' : '17.0.0.1',
+    'summary': 'all about Fleet modle Dashboard',
     'sequence': -1,
-    'description': """OWL Tutorial Custom Dashboard""",
-    'category': 'OWL',
-    'depends' : ['base', 'web', 'sale', 'board'],
+    'description': """show over all data of Fleet""",
+    'category': 'Fleet Dashboard',
+    'depends' : ['board'],
     'data': [
-        'views/sales_dashboard.xml',
+        'views/fleet_dashboard.xml',
     ],
     'demo': [
     ],
@@ -16,9 +16,9 @@
     'application': True,
     'assets': {
         'web.assets_backend': [
-            'odoo_custom_dashboard/static/src/components/**/*.js',
-            'odoo_custom_dashboard/static/src/components/**/*.xml',
-            'odoo_custom_dashboard/static/src/components/**/*.scss',
+            'fleet_custom_dashboard/static/src/components/**/*.js',
+            'fleet_custom_dashboard/static/src/components/**/*.xml',
+            'fleet_custom_dashboard/static/src/components/**/*.scss',
         ],
     },
 }
